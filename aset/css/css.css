@@ -1,0 +1,174 @@
+
+ ul,ol{
+	list-style: none;
+}
+body{
+	background-color: #c9cacc;
+	font-family: arial;
+}
+p{
+	margin-top: 0px;
+	margin-bottom:20px;
+	margin-right: 0px;
+	margin-left: auto;
+}
+img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 10px auto;
+}
+.topbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	background-color: black;
+	z-index: 5;
+
+}
+.topbar ul li{
+	float: right;
+	position: relative;
+	color: white;
+	display: inline-block;
+	font-size: 17px;
+	top: -60px;
+	right: 10px;
+	z-index: 5;
+}
+.topbar a{
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+}
+.topbar h1{
+	padding-left: 20px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	right: -30px;
+	top: -11px;
+}
+
+.dalem{
+	width: 1200px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:20px; 
+	background-color: white;
+	box-shadow: 0 5px 20px 0px black;
+}
+.kiri{
+	margin-top: 10px;
+	width: 180px;
+	float: right;
+}
+.list{
+	width: 185px;
+	margin-left: -40px;
+	font-weight: bold;
+	margin-top: 15px;
+	background-color: #999;
+}
+.list a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding:10px 20px;
+}
+.list ul li {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.list a:hover{
+	background-color: black;
+	color: white;
+}
+.clear{
+	clear:both; 
+}
+.kanan{
+	width: 970px;
+	margin-left: 20px;
+	padding-left: 20px;
+	min-height: 550px;
+	float: right;
+}
+
+.kanan h2{
+	font-family: arial;
+}
+.gambar{
+	border-radius: 6px;
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	margin:20px;
+	float: left;
+	box-shadow: 0 5px 20px 0px #999;
+	filter: grayscale(100%);
+}
+.gambar2{
+	border-radius: 6px;
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	margin:20px;
+	float: left;
+	box-shadow: 0 5px 20px 0px #999;
+	filter: grayscale(100%);
+}
+.gambar  p{
+	text-align: center;
+	font-size: 14px;
+	margin-top:-10px; 
+}
+.gambar2  p{
+	text-align: center;
+	font-size: 14px; 
+}
+.gambar2:hover{
+	filter: none;
+}
+.gambar:hover{
+	filter: none;
+}
+.lanjut{
+	align-content: left;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 130px;
+	background-color: #999;
+	margin-right: 30px;
+}
+
+.lanjut:hover{
+	background-color: black;
+}
+
+.lanjut a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding:13px 15px;
+}
+footer{
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	font-family: arial;
+	font-size: 14px;
+	color: white;
+	width: 100%;
+	height: 35px;
+	padding-top: 20px;
+	margin-left: -10px;
+	margin-top: 40px;
+}
